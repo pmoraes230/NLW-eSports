@@ -15,6 +15,18 @@ li a {
     text-decoration: none;
 }
 
+body::-webkit-scrollbar {
+    width: 16px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: #2A2634;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #443E54;    /* color of the scroll thumb */       
+}
+
 /*style*/
 body {
     background-image: url(../img/Fundo.jpg);
